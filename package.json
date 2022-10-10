@@ -1,0 +1,25 @@
+{
+  "name": "back-WelbeX",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-promise-router": "^4.1.1",
+    "mysql2": "^2.3.3",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "maxim abrosimov <maxim.abro@yandex.ru>",
+  "license": "ISC"
+}
